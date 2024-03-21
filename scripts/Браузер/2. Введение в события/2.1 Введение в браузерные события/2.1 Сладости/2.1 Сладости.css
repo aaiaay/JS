@@ -1,0 +1,16 @@
+.list ul {
+    display: none;
+}
+
+.list .title::before {
+    content: '▶ ';
+    color: green;
+}
+
+.list.open .title::before {
+    content: '▼ ';
+}
+
+.list.open ul {
+    display: block;
+}

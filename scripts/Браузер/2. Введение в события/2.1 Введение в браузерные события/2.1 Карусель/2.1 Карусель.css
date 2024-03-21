@@ -1,0 +1,61 @@
+.arrow {
+    position: absolute;
+      padding: 0;
+      background: #ddd;
+      border-radius: 15px;
+      border: 1px solid gray;
+      font-size: 24px;
+      line-height: 24px;
+      color: #444;
+      display: block;
+      top: 55px;
+      margin: 0 -20px;
+    }
+    
+    .arrow:focus {
+      outline: none;
+    }
+    
+    .arrow:hover {
+      background: #ccc;
+      cursor: pointer;
+    }
+    
+    ul {
+      height: 130px;
+      width: 9999px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 0;
+    }
+    
+    ul img {
+      width: 130px;
+      height: 130px;
+      display: block;
+    }
+    
+    ul li {
+      display: inline-block;
+    }
+  
+    .container {
+      margin-left: 40px;
+       width: 400px;
+       background-color: lightgray;
+       position: relative;
+       border-radius: 20px;
+    }
+  
+    .carousel {
+      overflow: hidden;
+    }
+  
+    #arrow-prev {
+      left: 7px;
+    }
+    
+    #arrow-next {
+      right: 7px;
+    }
